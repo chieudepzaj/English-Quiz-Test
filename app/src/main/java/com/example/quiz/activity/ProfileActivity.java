@@ -377,7 +377,7 @@ public class ProfileActivity extends AppCompatActivity {
     public void selectDialog() {
         final CharSequence[] items = {getString(R.string.from_library), getString(R.string.from_camera), getString(R.string.cancel)};
         androidx.appcompat.app.AlertDialog.Builder builder = new androidx.appcompat.app.AlertDialog.Builder(activity);
-        builder.setTitle("Add Photo!");
+        builder.setTitle("Tải Lên Ảnh Đại Diện");
         builder.setItems(items, (dialog, item) -> {
             if (items[item].equals(getString(R.string.from_library))) {
                 Intent intent = new Intent(Intent.ACTION_PICK);
@@ -492,7 +492,6 @@ public class ProfileActivity extends AppCompatActivity {
         tvYes.setOnClickListener(view1 -> {
             alertDialog.dismiss();
             Session.clearUserSession(activity);
-            LoginManager.getInstance().logOut();
             LoginTabActivity.mAuth.signOut();
             FirebaseAuth.getInstance().signOut();
             Intent intentLogin = new Intent(activity, LoginTabActivity.class);

@@ -54,7 +54,7 @@
                     android:background="@drawable/main_btn"
                     android:padding="@dimen/margin_10dp"
                     android:src="@drawable/ic_baseline_store_24"
-                    android:visibility="gone"
+                    android:visibility="invisible"
                     tools:ignore="ContentDescription" />
 
                 <ImageView
@@ -118,7 +118,6 @@
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
                 android:layout_marginStart="5dp"
-
                 android:background="@drawable/shadow_curved"
                 android:drawablePadding="@dimen/margin_10dp"
                 android:paddingStart="@dimen/padding_10"
@@ -139,7 +138,7 @@
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
                 android:layout_marginStart="@dimen/margin_5dp"
-                android:layout_toEndOf="@+id/tv_score"
+                android:layout_toEndOf="@+id/tv_rank"
                 android:background="@drawable/shadow_curved"
                 android:drawablePadding="@dimen/margin_10dp"
                 android:paddingStart="@dimen/margin_dp"
@@ -150,6 +149,7 @@
                 android:textColor="@color/white"
                 android:textSize="@dimen/text_12sp"
                 android:textStyle="bold"
+                android:visibility="invisible"
                 app:drawableStartCompat="@drawable/ic_new_coins"
                 app:drawableTint="@color/white" />
 
@@ -160,7 +160,7 @@
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
                 android:layout_marginStart="5dp"
-                android:layout_toEndOf="@+id/tv_coin"
+                android:layout_toEndOf="@+id/tv_score"
                 android:background="@drawable/shadow_curved"
                 android:drawablePadding="@dimen/margin_10dp"
                 android:paddingStart="@dimen/margin_dp"
@@ -190,117 +190,11 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
             >
-
-            <RelativeLayout
-                android:id="@+id/lytMaths"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:visibility="gone">
-
-                <ImageView
-                    android:id="@+id/maths_img"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="@dimen/margin_dp"
-                    android:background="@drawable/ic_mathquiz"
-                    tools:ignore="ContentDescription" />
-
-                <TextView
-                    android:id="@+id/txtMathsZone"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="@dimen/padding_15"
-                    android:layout_toEndOf="@+id/maths_img"
-                    android:text="@string/maths_zone"
-                    android:textColor="@color/dark_gray"
-                    android:textSize="@dimen/txt_size_16"
-                    android:textStyle="bold" />
-
-
-                <androidx.cardview.widget.CardView
-                    android:id="@+id/MathsCard"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/maths_img"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginStart="@dimen/padding_15"
-                    android:layout_marginTop="@dimen/margin_10dp"
-                    android:layout_marginEnd="@dimen/padding_15"
-                    android:layout_marginBottom="@dimen/margin_10dp"
-                    android:clipChildren="false"
-                    android:clipToPadding="false"
-                    android:divider="@android:color/transparent"
-                    android:dividerHeight="0.0px"
-                    android:elevation="8dp"
-                    android:onClick="MathsZone"
-                    app:cardCornerRadius="@dimen/margin_20dp"
-                    card_view:cardElevation="7dp"
-                    card_view:cardPreventCornerOverlap="false">
-
-
-                    <RelativeLayout
-                        android:id="@+id/MathsCardRelay"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_centerVertical="true"
-                        android:background="@drawable/gradient_cat_green">
-
-                        <ImageView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignParentEnd="true"
-                            android:layout_centerVertical="true"
-                            android:layout_marginEnd="@dimen/margin_10dp"
-                            android:background="@drawable/ic_maths"
-                            android:padding="@dimen/padding_15"
-                            tools:ignore="ContentDescription" />
-
-                        <TextView
-                            android:id="@+id/txtMaths"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="@dimen/txt_size_20"
-                            android:layout_marginTop="@dimen/margin_20dp"
-
-                            android:fontFamily="@font/open_sans_bold"
-                            android:gravity="center_vertical"
-                            android:maxLines="1"
-                            android:text="@string/maths_play"
-                            android:textColor="@color/white"
-                            android:textSize="20sp" />
-
-
-                        <TextView
-                            android:id="@+id/tvMaths"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_below="@+id/txtMaths"
-                            android:layout_marginStart="@dimen/margin_20dp"
-                            android:layout_marginTop="@dimen/padding_30"
-                            android:layout_marginBottom="@dimen/margin_20dp"
-                            android:drawablePadding="@dimen/padding_10"
-                            android:paddingStart="@dimen/margin_10dp"
-                            android:paddingEnd="@dimen/margin_10dp"
-                            android:paddingBottom="5dp"
-                            android:text="@string/play_now"
-                            android:textColor="@color/white"
-                            android:textSize="12sp"
-                            android:textStyle="bold"
-                            app:drawableStartCompat="@drawable/ic_play" />
-
-                    </RelativeLayout>
-
-                </androidx.cardview.widget.CardView>
-
-            </RelativeLayout>
-
             <RelativeLayout
                 android:id="@+id/lytLearning"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/lytMaths"
                 android:visibility="gone">
 
                 <ImageView

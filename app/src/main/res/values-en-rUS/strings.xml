@@ -4,29 +4,29 @@
     <string name="app_name">Quiz Online</string>
     <string name="drawer_open">Open navigation drawer</string>
     <string name="drawer_close">Close navigation drawer</string>
-    <string name="completed">Chúc mừng!!</string>
-    <string name="congratulations">Chúc mừng!!</string>
-    <string name="time_challenge_msg">Bạn hoàn thành bài quiz trong &#160;</string>
+    <string name="completed">Congratulations!!</string>
+    <string name="congratulations">Congratulations!!</string>
+    <string name="time_challenge_msg">You have completed challenge in&#160;</string>
     <string name="sec">&#160;sec&#160;</string>
-    <string name="not_completed">Chúc may mắn lần sau</string>
-    <string name="select_level">Chọn Level</string>
-    <string name="select_category">Chọn Chủ Đề</string>
+    <string name="not_completed">Better Luck Next Tme</string>
+    <string name="select_level">Select Level</string>
+    <string name="select_category">Select Category</string>
 
-    <string name="select_sub_category">Chọn Bài Quiz</string>
+    <string name="select_sub_category">Select SubCategory</string>
     <string name="self_challenge">Self Challenge</string>
-    <string name="daily_quiz">Daily Test</string>
-    <string name="learning_zone">Learning Zoom</string>
-    <string name="maths_zone" translatable="false">Maths Zoom</string>
-    <string name="learning_play">Learning Now</string>
+    <string name="daily_quiz">Daily Quiz</string>
+    <string name="learning_zone">Learning Zone</string>
+    <string name="maths_zone" translatable="false">Maths Zone</string>
+    <string name="learning_play">Learning Play</string>
     <string name="maths_play" translatable="false">Maths Play</string>
-    <string name="account_delete">Xóa Tài Khảon?</string>
-    <string name="delete_msg" translatable="false">Bạn có chắc là bạn muốn xóa tài khoản của mình không?</string>
-    <string name="random_quiz">Random Test</string>
-    <string name="contest" translatable="false">Contest</string>
-    <string name="sound" translatable="false">Âm thanh</string>
-    <string name="apply_code">Xác nhận đăng nhập bằng Google</string>
-    <string name="Username">Tên Tài Khoản</string>
-    <string name="apply">Đồng ý</string>
+    <string name="account_delete">Account Delete?</string>
+    <string name="delete_msg">Are you sure you want to delete your Account?\nThis action cannot be undone.After your account deleted , you will be logged out and all other  active session will be terminated.</string>
+    <string name="random_quiz">Random Quiz</string>
+    <string name="contest">Contest</string>
+    <string name="sound">Sound</string>
+    <string name="apply_code">Apply Referral Code</string>
+    <string name="Username">Username</string>
+    <string name="apply">Apply</string>
     <string name="share_app">Share App</string>
     <string name="update_msg_1">Update the app for a batter experience!</string>
     <string name="not_now">Not Now</string>
@@ -34,77 +34,77 @@
     <string name="update_alert">Update Alert</string>
     <string name="vibration">Vibration</string>
     <string name="rateapp">Rate Us</string>
-    <string name="bg_music">Nhạc nền</string>
+    <string name="bg_music">Background Music</string>
     <string name="share_via">Share via</string>
     <string name="next_play">Play Next Level</string>
-    <string name="play_again">Kiểm Tra Lại</string>
-    <string name="quite">Trang Chủ</string>
+    <string name="play_again">Play Again</string>
+    <string name="quite">Home</string>
     <string name="review_answer">Review</string>
-    <string name="share_score" translatable="false">Share Score</string>
-    <string name="share_result" translatable="false">Share Result</string>
+    <string name="share_score">Share Score</string>
+    <string name="share_result">Share Result</string>
     <string name="action_settings">Settings</string>
     <string name="play_next">Play Again</string>
-    <string name="lets_play" translatable="false">Let\'s Play</string>
-    <string name="instruction">Hướng Dẫn</string>
+    <string name="lets_play">Let\'s Play</string>
+    <string name="instruction">Instruction</string>
     <string name="coinstore">Coin Store</string>
     <string name="msg_no_internet">No internet connection!!</string>
     <string name="no_category">category not available!!</string>
-    <string name="no_data">Không có dữ liệu!!</string>
+    <string name="no_data">data not found!!</string>
     <string name="ttl_ques">Ques :&#160;</string>
     <string name="select_no_of_question">Select Number Of Questions</string>
     <string name="select_time_period">Select Time Period in Minutes</string>
     <string name="no_sub_category">sub category not available!!</string>
     <string name="no_enough_question">Not enough questions, to play level.</string>
     <string name="no_enough_questiondaily">Daily Quiz not Available or you already played Daily Quiz!!</string>
-    <string name="retry">Thử lại</string>
-    <string name="title">Tiêu đề</string>
+    <string name="retry">RETRY</string>
+    <string name="title">Title</string>
     <string name="lets_start">Let\'s Start</string>
     <string name="hello">Hello,&#160;</string>
     <string name="_coins">&#160;Coins</string>
     <string name="bm_empty_msg">bookmark not available</string>
-    <string name="empty_alert_msg" translatable="false">Field should not be empty</string>
+    <string name="empty_alert_msg">Field should not be empty</string>
     <string name="a">A</string>
     <string name="b">B</string>
     <string name="c">C</string>
     <string name="d">D</string>
-    <string name="e" translatable="false">E</string>
+    <string name="e">E</string>
     <string name="un_attend">Un-Attempted</string>
     <string name="answer">answer</string>
     <string name="answerbookmark">Answer : </string>
     <string name="extra_note">Extra Note</string>
     <string name="note">Note</string>
-    <string name="ok">OK</string>
-    <string name="ad_attribution" translatable="false">Ad</string>
-    <string name="report">Báo cáo câu hỏi</string>
-    <string name="cancel" translatable="false">Hủy</string>
-    <string name="submit" translatable="false">Xác Nhận</string>
-    <string name="review">Xem Lại</string>
-    <string name="result" translatable="false">Result</string>
+    <string name="ok">OKAY</string>
+    <string name="ad_attribution">Ad</string>
+    <string name="report">Report Question</string>
+    <string name="cancel">Cancel</string>
+    <string name="submit">Submit</string>
+    <string name="review">Review</string>
+    <string name="result">Result</string>
     <string name="title_already_used">Life Line Already Used !!</string>
-    <string name="msg_lifeline_used" translatable="false">You can use only once per level</string>
-    <string name="self_challenge_sub_msg" translatable="false">Bạn có chắc không ?\nBạn muốn nộp bài ngay không?</string>
+    <string name="msg_lifeline_used">You can use only once per level</string>
+    <string name="self_challenge_sub_msg">Are you sure ?\nYou want to submit this test?</string>
     <string name="true_ans">True Ans: </string>
     <string name="zero">0</string>
-    <string name="challenge_time" translatable="false">Challenge Time&#160;</string>
+    <string name="challenge_time">Challenge Time&#160;</string>
     <string name="loading">Loading…</string>
     <string name="bookmark_list">Bookmark List</string>
-    <string name="level_not_available">Level không khả dụng</string>
-    <string name="go_back">Quay lại</string>
-    <string name="login">Đăng Nhập</string>
-    <string name="signup">Tạo Tài Khoản</string>
+    <string name="level_not_available">Level not available</string>
+    <string name="go_back">Go Back</string>
+    <string name="login">Login</string>
+    <string name="signup">CREATE ACCOUNT</string>
     <string name="signup_alert">you are not registered yet, please SignUp</string>
-    <string name="invalid_pass">Mật khẩu không đúng định dạng, vui lòng kiểm tra mật khẩu của bạn</string>
-    <string name="email_alert_1">Nhập địa chỉ email</string>
-    <string name="email_alert_2">Hãy nhập địa chỉ email đúng định dạng</string>
-    <string name="pass_alert">Nhập mật khẩu</string>
-    <string name="from_camera">Camera</string>
-    <string name="verify_email_sent">Email xác minh đã được gửi đến &#160;</string>
-    <string name="verify_email_sent_f">Gửi email xác minh thất bại.</string>
-    <string name="ref_code">...</string>
-    <string name="act_verify_1">Xác minh tài khoản</string>
-    <string name="act_verify_2">Vui lòng nhấp vào liên kết vừa được gửi đến tài khoản email của bạn để xác minh email của bạn và tiếp tục quá trình đăng nhập.</string>
-    <string name="account_deactivate">Tài khoản của bạn bị khóa bởi admin</string>
-    <string name="select_language">Chọn ngôn ngữ</string>
+    <string name="invalid_pass">The password is invalid, please check your password</string>
+    <string name="email_alert_1">Please enter email address</string>
+    <string name="email_alert_2">Please enter valid email address</string>
+    <string name="pass_alert">Please enter password</string>
+    <string name="from_camera">Capture from Camera</string>
+    <string name="verify_email_sent">Verification email sent to &#160;</string>
+    <string name="verify_email_sent_f">Failed to send verification email.</string>
+    <string name="ref_code">Referral code</string>
+    <string name="act_verify_1">A Verified link has been sent to your email account</string>
+    <string name="act_verify_2">Please click on the link that has just been sent to your email account to verify your email and continue the login process.</string>
+    <string name="account_deactivate">Your Account is deactivate by admin</string>
+    <string name="select_language">Select Language</string>
     <string name="refer_share_msg_1">I have earned coins using&#160;</string>
     <string name="refer_share_msg_2">&#160;app. you can also earn coin by downloading app from below link and enter referral code while login-&#160; </string>
     <string name="msg_enough_coin">Not Enough Coins !!</string>
@@ -114,22 +114,22 @@
     <!--Leaderboard filter string-->
 
 
-    <string name="skip" translatable="false">Bỏ qua</string>
+    <string name="skip">Skip</string>
     <string name="msg_watch_video">Watch Now</string>
-    <string name="attended">Tổng số câu hỏi</string>
-    <string name="correct_ans">Số câu đúng</string>
-    <string name="correct">Đúng</string>
-    <string name="incorrect">Số câu sai</string>
+    <string name="attended">Attended Ques</string>
+    <string name="correct_ans">Correct Ans</string>
+    <string name="correct">Correct</string>
+    <string name="incorrect">InCorrect</string>
     <string name="color_code">Color Code</string>
     <string name="report_hint">Type a message</string>
 
     <string name="about_us">About Us</string>
-    <string name="exit_msg" translatable="false">Do you want to exit the level?</string>
-    <string name="exit_msg_quiz" translatable="false">Do you want to exit the Quiz?</string>
+    <string name="exit_msg">Do you want to exit the level?</string>
+    <string name="exit_msg_quiz">Do you want to exit the Quiz?</string>
     <string name="bookmark_play">Play Bookmark</string>
     <string name="all_complete_msg">You have Completed All Questions !!</string>
-    <string name="leave_msg_1" translatable="false">Bạn có chắc muốn thoát?</string>
-    <string name="leave_msg_2">Bạn chưa gửi bài kiểm tra này. Bạn có chắc bạn sẽ thoát?</string>
+    <string name="leave_msg_1">Are you sure?</string>
+    <string name="leave_msg_2">You haven\'t submitted this test yet. Are you sure you wan to leave?</string>
 
     <!--instruction battle String-->
     <string name="battle_msg1">\u25CF This will allow player vs player battle</string>
@@ -140,46 +140,46 @@
     <!--instruction  messages-->
     <string name="has_option">Quiz game has 4 options</string>
     <string name="msg_right">For each right answer 5 points will be given.</string>
-    <string name="msg_wrong" translatable="false">minus 2 points for each question</string>
+    <string name="msg_wrong">minus 2 points for each question</string>
     <string name="msg_lifeline">Use of Lifeline  : You can use only once per level</string>
     <string name="msg_fifty_fifty">50 – 50 : for remove two option out of Four(deduct 4 coins ).</string>
     <string name="msg_skip">Skip question: you can pass question without minus points(deduct 2 coins).</string>
     <string name="msg_opinion">Audience poll: use audience paul for check other users choose option(deduct 4 coins).</string>
     <string name="msg_reset">Reset timer: Reset timer again if you needed more time score (deduct 2 coins).</string>
-    <string name="msg_leaderboard" translatable="false">You can compare your score with other users of apps</string>
-    <string name="leaderboard">Bảng Xếp Hạng</string>
+    <string name="msg_leaderboard">You can compare your score with other users of apps</string>
+    <string name="leaderboard">Leaderboard</string>
 
-    <string name="textsize_dialog_lbl_fontsize">Cỡ chữ</string>
-    <string name="font_size">Cỡ chữ</string>
+    <string name="textsize_dialog_lbl_fontsize">Font Size</string>
+    <string name="font_size">Font Size</string>
     <string name="level_locked">Level is Locked</string>
 
-    <string name="update_profile">Cập Nhật Trang Cá Nhân</string>
-    <string name="user_statistics">Thống Kê Người Dùng</string>
-    <string name="name">Tên</string>
-    <string name="mobile">Số điện thoại</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="user_statistics">User Statistics</string>
+    <string name="name">Name</string>
+    <string name="mobile">Mobile Number</string>
     <string name="back">BACK</string>
-    <string name="play_quiz" translatable="false">Quiz Mode</string>
-    <string name="play" translatable="false">Play</string>
+    <string name="play_quiz">Quiz Zone</string>
+    <string name="play">Play</string>
     <string name="battle_quiz">Battle Quiz</string>
     <string name="bookmarks">Bookmarks</string>
-    <string name="notification">Thông Báo</string>
-    <string name="show_answer">Xem Đáp Án</string>
-    <string name="from_library">Bộ sưu tập</string>
+    <string name="notification">Notification</string>
+    <string name="show_answer">Show Answer</string>
+    <string name="from_library">Choose from Library</string>
     <string name="email">Email</string>
-    <string name="password">Mật khẩu</string>
-    <string name="password_valid" translatable="false">Mật khẩu phải có ít nhất 6 kí tự</string>
+    <string name="password">Password</string>
+    <string name="password_valid">Password should be at least 6 characters</string>
     <string name="refer">Referral Code</string>
-    <string name="forgot_pass" translatable="false">Quên mật khẩu?</string>
-    <string name="reset_pass">Vui lòng nhập thông tin tài khoản để lấy lại mật khẩu.</string>
-    <string name="logout">Đăng xuất</string>
+    <string name="forgot_pass">Forgot Password?</string>
+    <string name="reset_pass">Enter the email address you used when creating the account. A message will be sent to that address containing a link to reset your password.</string>
+    <string name="logout">Logout</string>
     <string name="rank">Rank</string>
-    <string name="score" translatable="false">Điểm</string>
+    <string name="score">Score</string>
     <string name="coins">Coins</string>
-    <string name="statistics">Thống Kê Người Dùng</string>
-    <string name="term_privacy">Bằng cách Đăng nhập/ Đăng kí bạn đã đồng ý với \nĐiều khoản dịch vụ và Chính sách bảo mật.</string>
-    <string name="privacy_policy">Chính sách bảo mật</string>
-    <string name="terms">Điều khoản dịch vụ</string>
-    <string name="modulo_sign" translatable="false">%</string>
+    <string name="statistics">Statistics</string>
+    <string name="term_privacy">By Logging / SigningUp in, you agree to our \nTerms of Service and Privacy Policy</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms">Terms of Service</string>
+    <string name="modulo_sign">%</string>
     <!--Strings for battle-->
     <string name="player_1">Player 1</string>
     <string name="player_2">Player 2</string>
@@ -195,22 +195,22 @@
     <string name="msg_win_battle">, you win the Battle</string>
     <string name="you_win">"You Win!! \n"</string>
     <string name="msg_opponent_win_battle">&#160;win the Battle</string>
-    <string name="msg_alert_leave" translatable="false">"Are you sure,\n you want to leave battle ?"</string>
+    <string name="msg_alert_leave">"Are you sure,\n you want to leave battle ?"</string>
     <string name="msg_draw_game">"Draw..!!\n The Game Is Over play again"</string>
     <string name="try_again1">Try Again</string>
     <string name="winner">Winner</string>
     <string name="victory_">VICTORY</string>
     <string name="you_loss">You Loss</string>
-    <string name="defeat" translatable="false">DEFEAT</string>
+    <string name="defeat">DEFEAT</string>
     <string name="or">Or</string>
     <string name="category">Category&#160;</string>
     <string name="que">Que:&#160;</string>
     <string name="avail_cate" translatable="false">Available Categories :&#160;</string>
     <string name="search_player">Search Player</string>
     <string name="leave_battle">Leave Battle</string>
-    <string name="yes" translatable="false">Có</string>
-    <string name="no">Không</string>
-    <string name="back_message" translatable="false">Are you sure , you  want to leave ?</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="back_message">Are you sure , you  want to leave ?</string>
     <string name="dailycompleted">Daily Quiz Completed!!</string>
     <string name="learningcompleted">Learning Zone Completed!!</string>
     <string name="mathscompleted">Maths Zone Completed!!</string>
@@ -225,23 +225,23 @@
     <string name="your_refer_code">Your Referral Code</string>
     <string name="tap_copy">Tap To Copy</string>
     <string name="refer_now">SHARE NOW</string>
-    <string name="start_on" translatable="false">Starts On:</string>
-    <string name="ends_on" translatable="false">Ends On:</string>
+    <string name="start_on">Starts On:</string>
+    <string name="ends_on">Ends On:</string>
     <string name="ending_on">Ending On:</string>
     <string name="not_enough_entry_coin"> Earn Coin And Join Contest </string>
 
-    <string name="today">Ngày</string>
-    <string name="month">Tháng</string>
-    <string name="all">Tổng</string>
-    <string name="top_user">Top Người Dùng :&#160;</string>
+    <string name="today">Today</string>
+    <string name="month">Month</string>
+    <string name="all">All</string>
+    <string name="top_user">Top User :&#160;</string>
     <string name="price">Price :&#160;</string>
     <string name="past">Past</string>
-    <string name="live" translatable="false">Live</string>
+    <string name="live">Live</string>
     <string name="upcoming">Upcoming</string>
 
     <string name="victory">Victory</string>
     <string name="re_battle">RE-Battle</string>
-    <string name="logout_msg" translatable="false">Bạn có chắc muốn đăng xuất?</string>
+    <string name="logout_msg">Are you sure!!\nYou want to Log out?</string>
     <string name="true_false">True/False</string>
     <string name="contest_complete">Contest Complete</string>
     <string name="refer_code_generate_error_msg">Your refer code not generated please re-login for your refer code.</string>
@@ -252,20 +252,20 @@
     <string name="rewards_message">Rewards ads not loaded Try after some time!!</string>
     <string name="rewads_adstitle">Ads not loaded!!</string>
 
-    <string name="otp_msg">Nhập mã OTP đã được gửi đến số điện thoại của bạn.</string>
-    <string name="enter_otp">Nhập mã OTP</string>
-    <string name="verify">Xác minh</string>
-    <string name="phone_num">Số điện thoại</string>
-    <string name="sign_up_with_mobile">Đăng kí với số điện thoại</string>
+    <string name="otp_msg">OTP has been sent to you on your mobile phone. Please enter it below</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="verify">Verify</string>
+    <string name="phone_num">Phone Number</string>
+    <string name="sign_up_with_mobile">SignUp with Mobile</string>
     <string name="entry_fees">Entry fees</string>
     <string name="participants">Players</string>
-    <string name="enter_email">Nhập địa chỉ email</string>
-    <string name="act_login">ĐĂNG NHẬP</string>
-    <string name="no_notification">Thông báo không có sẵn!!</string>
-    <string name="new_act">TẠO TÀI KHOẢN</string>
-    <string name="reset_msg1">Vui lòng nhập thông tin tài khoản để lấy lại mật khẩu.</string>
-    <string name="reset_msg2">Chúng tôi sẽ gửi link khôi phục mật khẩu tới email của bạn</string>
-    <string name="by_wrteam">💗 Hedspi 2022 💗 </string>
+    <string name="enter_email">Enter email address</string>
+    <string name="act_login">ACCOUNT LOGIN</string>
+    <string name="no_notification">Notification not available!!</string>
+    <string name="new_act">NEW ACCOUNT</string>
+    <string name="reset_msg1">Enter the email address \nassociated with your \naccount.</string>
+    <string name="reset_msg2">We will email you a link to reset your \npassword</string>
+    <string name="by_wrteam">By WRTeam</string>
     <!--facebook appId for login-->
     <string name="facebook_app_id">2338640796222596</string>
     <string name="fb_login_protocol_scheme">fb2338640796222596</string>
@@ -277,46 +277,46 @@
 
     <string name="your_game_code">Your Game Code</string>
     <string name="user_join_alert">Oopps!! No User Join</string>
-    <string name="user_join_alert_msg" translatable="false">Look like no user join game yet.</string>
+    <string name="user_join_alert_msg">Look like no user join game yet.</string>
     <string name="join_room">Join Room</string>
     <string name="enter_game_code">Enter Game Code</string>
     <string name="game_code">GameCode</string>
     <string name="stay_back">Stay Back</string>
-    <string name="leave" translatable="false">Leave</string>
+    <string name="leave">Leave</string>
     <string name="multiplayer_game">Group Battle</string>
     <string name="wait_for_players">Wait For Players</string>
     <string name="minmum_user_join_alert">Wait for atleast one user to join game</string>
-    <string name="battle_result" translatable="false">Battle Result</string>
+    <string name="battle_result">Battle Result</string>
     <string name="room_deactivate_alert">GameRoom Deactivated</string>
     <string name="all_user_left_game">All User Quit Game</string>
     <string name="destroy_game_room_msg">Game Room Deactivated</string>
     <string name="room_created_msg">GameRoom Created Successfully</string>
-    <string name="leave_game_room_msg" translatable="false">Are You Sure , You Want to Leave Game?</string>
+    <string name="leave_game_room_msg">Are You Sure , You Want to Leave Game?</string>
     <string name="join">Join Room</string>
     <string name="create">Create Room</string>
     <string name="enter_code">Enter GameRoom Code</string>
-    <string name="view_all"><u>Xem thêm</u></string>
-    <string name="quiz_zone" translatable="false">Quiz Zone</string>
-    <string name="play_zone" translatable="false">Test Mode</string>
-    <string name="battle_zone" translatable="false">Battle Zone</string>
+    <string name="view_all"><u>View All</u></string>
+    <string name="quiz_zone">Quiz Zone</string>
+    <string name="play_zone">Play Zone</string>
+    <string name="battle_zone">Battle Zone</string>
     <string name="group_battle">Group Battle</string>
-    <string name="play_now"></string>
+    <string name="play_now">Play Now</string>
     <string name="random_battle">Random Battle</string>
-    <string name="contest_zone" translatable="false">Contest Zone</string>
+    <string name="contest_zone">Contest Zone</string>
     <string name="contest_play">Contest Play</string>
-    <string name="join_now" translatable="false">Join Now</string>
+    <string name="join_now">Join Now</string>
     <string name="game_deactive_alert">GameRoom is Deactivate or Game Already Started </string>
     <string name="gameroom_full">Maximum User Join Limit Reached!!</string>
-    <string name="share_code_msg" translatable="false">Here is My Group Battle Game Code : &#160;</string>
-    <string name="msg_oto_game_code" translatable="false">Here is My Group Battle Game Code : &#160;</string>
-    <string name="waiting_msg" translatable="false">Please wait a while till other player complete a game.</string>
+    <string name="share_code_msg">Here is My Group Battle Game Code : &#160;</string>
+    <string name="msg_oto_game_code">Here is My Group Battle Game Code : &#160;</string>
+    <string name="waiting_msg">Please wait a while till other player complete a game.</string>
     <string name="game_code_alert">GameCode is Invalid</string>
-    <string name="practice" translatable="false">Practice</string>
+    <string name="practice">Practice</string>
     <string name="gameroom_code_alert">GameCode is Invalid Please Check Code</string>
     <string name="share_code">Share this room code with a friends and ask them to join</string>
     <string name="share_code_oto">Share game code with your friend and play One-to-One battle.</string>
     <string name="game_start_msg">Please wait game will be start in few seconds.</string>
-    <string name="device_language">Ngôn Ngữ</string>
+    <string name="device_language">Device Language</string>
 
     <string name="one_to_one_battle">One v/s One Battle</string>
     <string name="one_to_one_msg">Invite your friend and play one-to-one battle with them. </string>
@@ -333,17 +333,17 @@
     <string name="admob_openads_id">ca-app-pub-3940256099942544/3419835294</string>
 
 
-    <string name="levea_msg3" translatable="false">Are you sure you want to leave PracticeQuiz?</string>
+    <string name="levea_msg3">Are you sure you want to leave PracticeQuiz?</string>
     <string name="youloss">You Loss</string>
     <string name="you">you</string>
-    <string name="enternumber">Nhập số điện thoại</string>
-    <string name="entername">Nhập tên</string>
-    <string name="enterpassword">Nhập mật khẩu.</string>
+    <string name="enternumber">Enter your mobile number</string>
+    <string name="entername">Please enter Name</string>
+    <string name="enterpassword">Please enter Password.</string>
     <string name="text_store">Welcome to Coin Store\nThe easy way you can buy Coin!!</string>
-    <string name="profile_permission"><![CDATA[Để thay đổi ảnh hồ sơ bạn cần cho phép quyền truy cập. Bạn có thể cho phép từ cài đặt Android -> Ứng dụng..]]></string>
-    <string name="permission_grant" translatable="false">Cấp quyền truy cập</string>
-    <string name="oppentent_leave">Đối thủ của bạn đã rời khỏi phòng!!</string>
-    <string name="delete_successfully">Xóa tài khoản thành công.</string>
+    <string name="profile_permission"><![CDATA[Profile picture Change You need to give permission. You can give permission From Android Setting -> App.]]></string>
+    <string name="permission_grant">Permission Grant</string>
+    <string name="oppentent_leave">Your opponent leave GameRoom!!</string>
+    <string name="delete_successfully">Deleted User Successfully</string>
     <string name="re_login">Re-Login Again!!</string>
     <string name="relogin_message">To delete Your account, You must have Login in recently.\nThen After you can delete your Account</string>
 

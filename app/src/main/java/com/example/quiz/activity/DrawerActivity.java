@@ -4,15 +4,12 @@ import static com.example.quiz.activity.MainActivity.Customadapters;
 import static com.example.quiz.activity.MainActivity.adapter;
 import static com.example.quiz.activity.MainActivity.arrayList;
 import static com.example.quiz.activity.MainActivity.item_title;
-import static com.example.quiz.activity.MainActivity.tvContest;
 import static com.example.quiz.activity.MainActivity.tvOneToOne;
 import static com.example.quiz.activity.MainActivity.tvViewAll;
 import static com.example.quiz.activity.MainActivity.tv_oto_play;
 import static com.example.quiz.activity.MainActivity.tv_play;
 import static com.example.quiz.activity.MainActivity.tv_random_play;
 import static com.example.quiz.activity.MainActivity.txtBattleZone;
-import static com.example.quiz.activity.MainActivity.txtContest;
-import static com.example.quiz.activity.MainActivity.txtContestZone;
 import static com.example.quiz.activity.MainActivity.txtPlayZpme;
 import static com.example.quiz.activity.MainActivity.txtQuiZone;
 import static com.example.quiz.activity.MainActivity.txt_random;
@@ -251,10 +248,6 @@ public class DrawerActivity extends AppCompatActivity implements NavigationView.
         tv_oto_play.setText(R.string.play_now);
         txt_random.setText(R.string.random_battle);
         tv_random_play.setText(R.string.play_now);
-        txtContestZone.setText(R.string.contest_zone);
-        txtContest.setText(R.string.contest_play);
-        tvContest.setText(R.string.join_now);
-
         setDefaultQuiz();
         try {
             if (adapter != null) {

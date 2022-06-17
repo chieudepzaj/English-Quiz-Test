@@ -193,10 +193,10 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
                 android:layout_marginStart="@dimen/margin_20dp"
-                android:layout_marginEnd="@dimen/margin_20dp"
                 android:layout_marginTop="@dimen/margin_5dp"
+                android:layout_marginEnd="@dimen/margin_20dp"
+                android:orientation="horizontal"
                 android:weightSum="2">
 
 
@@ -214,7 +214,7 @@
                     android:text="@string/statistics"
                     android:textAllCaps="true"
                     android:textColor="@color/black"
-                    android:textSize="@dimen/txt_size_16" />
+                    android:textSize="10sp" />
 
                 <TextView
                     android:layout_width="0dp"
@@ -237,10 +237,10 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/margin_5dp"
-                android:orientation="horizontal"
                 android:layout_marginStart="@dimen/margin_20dp"
+                android:layout_marginTop="@dimen/margin_5dp"
                 android:layout_marginEnd="@dimen/margin_20dp"
+                android:orientation="horizontal"
                 android:weightSum="2">
 
                 <TextView
@@ -338,7 +338,7 @@
         android:layout_above="@+id/imgInsta"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="@dimen/margin_5dp"
-        android:text="Please Follow on Social Media!! To Connect US!"
+        android:text=""
         android:textColor="@color/black"
         android:textStyle="bold" />
 
@@ -346,6 +346,7 @@
         android:id="@+id/imgInsta"
         android:layout_width="35dp"
         android:layout_height="35dp"
+        android:visibility="invisible"
         android:layout_alignParentBottom="true"
         android:layout_centerInParent="true"
         android:layout_marginBottom="@dimen/margin_10dp"
@@ -358,6 +359,7 @@
         android:layout_height="35dp"
         android:layout_alignParentBottom="true"
         android:layout_centerInParent="true"
+        android:visibility="invisible"
         android:layout_marginStart="@dimen/margin_10dp"
         android:layout_marginEnd="@dimen/margin_10dp"
         android:layout_marginBottom="@dimen/margin_10dp"
@@ -371,6 +373,7 @@
         android:layout_height="35dp"
         android:layout_alignParentBottom="true"
         android:layout_centerInParent="true"
+        android:visibility="invisible"
         android:layout_marginStart="@dimen/margin_10dp"
         android:layout_marginBottom="@dimen/margin_10dp"
         android:layout_toEndOf="@+id/imgInsta"

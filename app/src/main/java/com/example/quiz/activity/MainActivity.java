@@ -89,7 +89,7 @@ public class MainActivity extends DrawerActivity {
     public String status = "0";
     public static TextView tvAlert, tvPlay, tvViewAll;
     public Toolbar toolbar;
-    RelativeLayout lytContest, lytLearning, lytMaths;
+    RelativeLayout lytContest, lytLearning;
     AlertDialog alertDialog;
     public RecyclerView recyclerView, PlayMode;
     public static TextView tvName, tvScore, tvCoin, tvRank;
@@ -135,12 +135,8 @@ public class MainActivity extends DrawerActivity {
             startActivity(leaderBoard);
         });
 
-        imgStore.setVisibility(Session.getBoolean(Session.STORE, getApplicationContext()) ? View.VISIBLE : View.GONE);
-        imgStore.setOnClickListener(view -> {
-            Intent instruction = new Intent(getApplicationContext(), CoinStoreActivity.class);
-            startActivity(instruction);
-        });
-
+        tvCoin.setVisibility(View.INVISIBLE);
+        imgStore.setVisibility(View.INVISIBLE);
         if (Session.getBoolean(Session.LANG_MODE, getApplicationContext())) {
             LanguageDialog(activity);
             if (!Session.getBoolean(Session.IS_FIRST_TIME, getApplicationContext())) {
@@ -219,7 +215,6 @@ public class MainActivity extends DrawerActivity {
         txtContest = findViewById(R.id.txtContest);
         tvContest = findViewById(R.id.tvContest);
         lytLearning = findViewById(R.id.lytLearning);
-        lytMaths = findViewById(R.id.lytMaths);
 
         recyclerView = findViewById(R.id.recyclerView);
         recyclerView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
@@ -322,7 +317,7 @@ public class MainActivity extends DrawerActivity {
 
 
     public void ContestQuiz(View view) {
-        Intent intent = new Intent(activity, ContestActivity.class);
+        Intent intent = new Intent(activity, UserStatistics.class);
         startActivity(intent);
     }
 
@@ -330,9 +325,6 @@ public class MainActivity extends DrawerActivity {
         openCategoryPage(Constant.LEARNINGZONE);
     }
 
-    public void MathsZone(View view) {
-        openCategoryPage(Constant.MATHSZONE);
-    }
 
     public void RandomBattle(View view) {
         if (Session.getBoolean(Session.LANG_MODE, getApplicationContext())) {
@@ -620,15 +612,7 @@ public class MainActivity extends DrawerActivity {
                         } else Constant.LEARNINGZONEMODE = "0";
 
 
-                        if (jsonobj.has(Constant.MathsZoneMode)) {
 
-                            Constant.MATHSZONEMODE = jsonobj.getString(Constant.MathsZoneMode);
-                            if (Constant.MATHSZONEMODE.equals("1")) {
-                                lytMaths.setVisibility(View.VISIBLE);
-                            } else {
-                                lytMaths.setVisibility(View.GONE);
-                            }
-                        } else Constant.MATHSZONEMODE = "0";
 
                         if (jsonobj.has(Constant.RANDOM_BATTLE_CATE_MODE))
                             Constant.isCateEnable = jsonobj.getString(Constant.RANDOM_BATTLE_CATE_MODE).equals("1");
@@ -766,18 +750,8 @@ public class MainActivity extends DrawerActivity {
                             finish();
                         } else {
                             Constant.TOTAL_COINS = Integer.parseInt(jsonobj.getString(Constant.COINS));
-                            String numberString;
-                            if (Math.abs(Integer.parseInt(String.valueOf(Constant.TOTAL_COINS)) / 1000000) > 1) {
-                                numberString = (Integer.parseInt(String.valueOf(Constant.TOTAL_COINS)) / 1000000) + "M";
 
-                            } else if (Math.abs(Integer.parseInt(String.valueOf(Constant.TOTAL_COINS)) / 1000) > 1) {
-                                numberString = (Integer.parseInt(String.valueOf(Constant.TOTAL_COINS)) / 1000) + "K";
-
-                            } else {
-                                numberString = String.valueOf(Constant.TOTAL_COINS);
-
-                            }
-                            tvCoin.setText(numberString);
+                            tvCoin.setText("0");
                             tvRank.setText(jsonobj.getString(Constant.GLOBAL_RANK));
                             tvScore.setText(jsonobj.getString(Constant.GLOBAL_SCORE));
                             FirebaseMessaging.getInstance().getToken().addOnCompleteListener(task -> {
