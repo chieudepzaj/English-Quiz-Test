@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "190448478199",
+    "firebase_url": "https://english-quiz-test-53c72-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "english-quiz-test-53c72",
+    "storage_bucket": "english-quiz-test-53c72.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:190448478199:android:d3b9e39ec77d9fbe8cb0f2",
+        "android_client_info": {
+          "package_name": "com.example.quiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "190448478199-79ds7om6mkkhphcor2198g4mve0qi9l4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.quiz",
+            "certificate_hash": "12d7acae4d0386b75d65c49e992a5a3378cece30"
+          }
+        },
+        {
+          "client_id": "190448478199-aa9tob5vb518d4bmffcg7aetv319q90t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlNZ0FvGamClf28T9MSbd3frwZ06LojtU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "190448478199-aa9tob5vb518d4bmffcg7aetv319q90t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
