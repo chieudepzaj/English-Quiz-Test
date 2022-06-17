@@ -403,9 +403,9 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/GroupBattle"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/img_battle1"
+                android:layout_width="1dp"
+                android:layout_height="1dp"
+                android:layout_below="@+id/randomBattle"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginStart="@dimen/padding_15"
                 android:layout_marginTop="@dimen/margin_10dp"
@@ -416,6 +416,7 @@
                 android:divider="@android:color/transparent"
                 android:dividerHeight="0.0px"
                 android:elevation="8dp"
+                android:visibility="invisible"
                 android:onClick="GroupBattle"
                 app:cardCornerRadius="@dimen/margin_20dp"
                 card_view:cardElevation="7dp"
@@ -479,9 +480,10 @@
                 android:id="@+id/otoBattle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/GroupBattle"
+                android:layout_below="@+id/img_battle1"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginStart="@dimen/padding_15"
+                android:layout_marginTop="@dimen/margin_10dp"
                 android:layout_marginEnd="@dimen/padding_15"
                 android:layout_marginBottom="@dimen/margin_10dp"
                 android:clipChildren="false"
@@ -625,6 +627,7 @@
 
             <RelativeLayout
                 android:id="@+id/lytContest"
+                android:visibility="invisible"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/randomBattle">
@@ -665,6 +668,7 @@
                     android:divider="@android:color/transparent"
                     android:dividerHeight="0.0px"
                     android:elevation="8dp"
+                    android:visibility="invisible"
                     android:onClick="ContestQuiz"
                     app:cardCornerRadius="@dimen/margin_20dp"
                     card_view:cardElevation="7dp"

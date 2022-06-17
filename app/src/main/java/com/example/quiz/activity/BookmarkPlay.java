@@ -162,7 +162,7 @@ public class BookmarkPlay extends AppCompatActivity implements View.OnClickListe
                     trueOption = "E";
                 }
             }
-            String strTrueAns= getString(R.string.true_ans)+trueOption;
+            String strTrueAns= getString(R.string.true_ans) + " " + trueOption;
             btnAnswer.setText(strTrueAns);
         });
     }
