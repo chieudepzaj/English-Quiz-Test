@@ -143,14 +143,6 @@ public class DrawerActivity extends AppCompatActivity implements NavigationView.
                 Utils.displayInterstitial(DrawerActivity.this);
                 break;
 
-            case R.id.invite:
-
-                Intent invite = new Intent(getApplicationContext(), InviteFriendActivity.class);
-                startActivity(invite);
-                Utils.displayInterstitial(DrawerActivity.this);
-                drawerLayout.closeDrawers();
-                break;
-
             case R.id.DevicLang:
                 SignOutWarningDialog();
                 break;
@@ -158,13 +150,6 @@ public class DrawerActivity extends AppCompatActivity implements NavigationView.
                 Intent instruction = new Intent(getApplicationContext(), InstructionActivity.class);
                 instruction.putExtra("type", "instruction");
                 startActivity(instruction);
-                break;
-            case R.id.share:
-                Intent intent = new Intent(Intent.ACTION_SEND);
-                intent.setType("text/plain");
-                intent.putExtra(Intent.EXTRA_TEXT, Constant.SHARE_APP_TEXT + " " + Constant.APP_LINK);
-                intent.putExtra(Intent.EXTRA_SUBJECT, "");
-                startActivity(Intent.createChooser(intent, getString(R.string.share_via)));
                 break;
             case R.id.about:
                 Intent about = new Intent(getApplicationContext(), PrivacyPolicy.class);

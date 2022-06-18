@@ -24,10 +24,6 @@
     <group
         android:id="@+id/menu_middle"
         android:checkableBehavior="single">
-        <item
-            android:id="@+id/invite"
-            android:icon="@drawable/ic_invite"
-            android:title="@string/invite_frnd" />
 
         <item
             android:id="@+id/instruction"
@@ -41,10 +37,6 @@
             android:id="@+id/DevicLang"
             android:icon="@drawable/ic_language1"
             android:title="@string/device_language" />
-        <item
-            android:id="@+id/share"
-            android:icon="@drawable/ic_share"
-            android:title="@string/share_app" />
     </group>
 
     <group

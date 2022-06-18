@@ -243,8 +243,8 @@ public class BookmarkList extends AppCompatActivity {
 
                 holder.tvNo.setText(String.valueOf(position + 1) );
                 holder.tvQue.setText(Html.fromHtml(bookmark.getQuestion()));
-                holder.tvAns.setText(getString(R.string.answerbookmark) +" " + Html.fromHtml(bookmark.getTrueAns()));
-                holder.tvNote.setText(getString(R.string.extra_note) + " " + Html.fromHtml(bookmark.getNote()));
+                holder.tvAns.setText(getString(R.string.answerbookmark) + Html.fromHtml(bookmark.getTrueAns()));
+                holder.tvNote.setText(getString(R.string.extra_note) + Html.fromHtml(bookmark.getNote()));
                 holder.remove.setOnClickListener(view -> {
                     removeBookmark("0", String.valueOf(bookmark.getId()));
                     Session.setMark(getApplicationContext(), "question_" + bookmark.getId(), false);

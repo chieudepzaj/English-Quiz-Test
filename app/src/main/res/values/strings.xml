@@ -62,7 +62,7 @@
     <string name="hello">Hello,&#160;</string>
     <string name="_coins">&#160;Coins</string>
     <string name="bm_empty_msg">bookmark not available</string>
-    <string name="empty_alert_msg" translatable="false">Field should not be empty</string>
+    <string name="empty_alert_msg" translatable="false">Trường này không được để trống</string>
     <string name="a">A</string>
     <string name="b">B</string>
     <string name="c">C</string>
@@ -79,7 +79,7 @@
     <string name="cancel" translatable="false">Hủy</string>
     <string name="submit" translatable="false">Xác Nhận</string>
     <string name="review">Xem Lại</string>
-    <string name="result" translatable="false">Result</string>
+    <string name="result" translatable="false">Kết Quả</string>
     <string name="title_already_used">Life Line Already Used !!</string>
     <string name="msg_lifeline_used" translatable="false">You can use only once per level</string>
     <string name="self_challenge_sub_msg" translatable="false">Bạn có chắc không ?\nBạn muốn nộp bài ngay không?</string>
@@ -133,9 +133,8 @@
 
     <!--instruction battle String-->
     <string name="battle_msg1">\u25CF This will allow player vs player battle</string>
-    <string name="battle_msg2">\u25CF If not found any player to a battle, you can battle with the robot</string>
-    <string name="battle_msg3">\u25CF For battle, same questions will be served for both the player
-        &amp; the winner will be declared base on no of right answers</string>
+    <string name="battle_msg2">\u25CF Nếu không tìm thấy bất kỳ người dùng nào, bạn có thể thi đấu với robot.</string>
+    <string name="battle_msg3">\u25CF Đối với thi đấu, hai người chơi sẽ có cùng câu hỏi. Người chiến thắng dựa trên số câu trả lời đúng.</string>
 
     <!--instruction  messages-->
     <string name="has_option">Quiz game has 4 options</string>
@@ -183,34 +182,34 @@
     <!--Strings for battle-->
     <string name="player_1">Player 1</string>
     <string name="player_2">Player 2</string>
-    <string name="exit">EXIT</string>
+    <string name="exit">Thoát</string>
     <string name="play_with_computer1">Play With Robot</string>
-    <string name="congrats">Congratulation</string>
+    <string name="congrats">Chúc Mừng</string>
     <string name="next_time">Batter Luck Next Time!!</string>
     <string name="robot">Robot</string>
     <string name="level">Level</string>
     <string name="msg_player_not_available"><h3><b>Oops!</b></h3>\n Player Not Available For Battle!!</string>
-    <string name="question_not_available">Question Not Available</string>
-    <string name="leave_battle_txt"> &#160;has leave the game.</string>
-    <string name="msg_win_battle">, you win the Battle</string>
+    <string name="question_not_available">Không có dữ liệu câu hỏi.</string>
+    <string name="leave_battle_txt"> &#160; đã rời khỏi phòng.</string>
+    <string name="msg_win_battle">, Bạn chiến thắng trận thi đấu này.</string>
     <string name="you_win">"You Win!! \n"</string>
-    <string name="msg_opponent_win_battle">&#160;win the Battle</string>
-    <string name="msg_alert_leave" translatable="false">"Are you sure,\n you want to leave battle ?"</string>
-    <string name="msg_draw_game">"Draw..!!\n The Game Is Over play again"</string>
-    <string name="try_again1">Try Again</string>
-    <string name="winner">Winner</string>
-    <string name="victory_">VICTORY</string>
-    <string name="you_loss">You Loss</string>
-    <string name="defeat" translatable="false">DEFEAT</string>
+    <string name="msg_opponent_win_battle">&#160; đã giành chiến thắng</string>
+    <string name="msg_alert_leave" translatable="false">"Bạn có muốn rời khỏi phòng thi đấu ?"</string>
+    <string name="msg_draw_game">"Hòa..!!\n Trận đấu đã kết thúc. Hãy thử lại."</string>
+    <string name="try_again1">Thử Lại</string>
+    <string name="winner">Người Chiến Thắng</string>
+    <string name="victory_">Chiến Thắng</string>
+    <string name="you_loss">Bạn đã thua</string>
+    <string name="defeat" translatable="false">Thất Bại</string>
     <string name="or">Or</string>
-    <string name="category">Category&#160;</string>
+    <string name="category">Chủ Đề&#160;</string>
     <string name="que">Que:&#160;</string>
     <string name="avail_cate" translatable="false">Available Categories :&#160;</string>
-    <string name="search_player">Search Player</string>
+    <string name="search_player">Tìm Người Chơi</string>
     <string name="leave_battle">Leave Battle</string>
     <string name="yes" translatable="false">Có</string>
     <string name="no">Không</string>
-    <string name="back_message" translatable="false">Are you sure , you  want to leave ?</string>
+    <string name="back_message" translatable="false">Bạn có chắc muốn thoát không?</string>
     <string name="dailycompleted">Daily Quiz Completed!!</string>
     <string name="learningcompleted">Learning Zone Completed!!</string>
     <string name="mathscompleted">Maths Zone Completed!!</string>
@@ -239,16 +238,16 @@
     <string name="live" translatable="false">Live</string>
     <string name="upcoming">Upcoming</string>
 
-    <string name="victory">Victory</string>
-    <string name="re_battle">RE-Battle</string>
+    <string name="victory">Chiến Thắng</string>
+    <string name="re_battle">Thi Đấu Lại</string>
     <string name="logout_msg" translatable="false">Bạn có chắc muốn đăng xuất?</string>
     <string name="true_false">True/False</string>
     <string name="contest_complete">Contest Complete</string>
     <string name="refer_code_generate_error_msg">Your refer code not generated please re-login for your refer code.</string>
-    <string name="category_select">Please select category</string>
-    <string name="subcategory_select">Please select subCategory</string>
-    <string name="question_select">Please select questions</string>
-    <string name="minutes_select">Please select minutes</string>
+    <string name="category_select">Chọn Chủ Đề</string>
+    <string name="subcategory_select">Chọn Chủ Đề Con</string>
+    <string name="question_select">Hãy chọn câu hỏi</string>
+    <string name="minutes_select">Chọn thời gian ( phút )</string>
     <string name="rewards_message">Rewards ads not loaded Try after some time!!</string>
     <string name="rewads_adstitle">Ads not loaded!!</string>
 
@@ -275,26 +274,26 @@
 
     <!--New Strings-->
 
-    <string name="your_game_code">Your Game Code</string>
-    <string name="user_join_alert">Oopps!! No User Join</string>
-    <string name="user_join_alert_msg" translatable="false">Look like no user join game yet.</string>
-    <string name="join_room">Join Room</string>
-    <string name="enter_game_code">Enter Game Code</string>
-    <string name="game_code">GameCode</string>
-    <string name="stay_back">Stay Back</string>
-    <string name="leave" translatable="false">Leave</string>
+    <string name="your_game_code">Mã Phòng Của Bạn</string>
+    <string name="user_join_alert">Oopps!! Không có ai tham gia</string>
+    <string name="user_join_alert_msg" translatable="false">Hãy tạo lại phòng và mời bạn của bạn.</string>
+    <string name="join_room">Tham Gia</string>
+    <string name="enter_game_code">Nhập mã phòng</string>
+    <string name="game_code">Mã Phòng Của Bạn</string>
+    <string name="stay_back">Ở lại</string>
+    <string name="leave" translatable="false">Thoát</string>
     <string name="multiplayer_game">Group Battle</string>
     <string name="wait_for_players">Wait For Players</string>
     <string name="minmum_user_join_alert">Wait for atleast one user to join game</string>
-    <string name="battle_result" translatable="false">Battle Result</string>
-    <string name="room_deactivate_alert">GameRoom Deactivated</string>
+    <string name="battle_result" translatable="false">Kết Quả Thi Đấu</string>
+    <string name="room_deactivate_alert">Nếu bạn rời đi phòng Thi Đấu sẽ bị hủy ?</string>
     <string name="all_user_left_game">All User Quit Game</string>
-    <string name="destroy_game_room_msg">Game Room Deactivated</string>
-    <string name="room_created_msg">GameRoom Created Successfully</string>
-    <string name="leave_game_room_msg" translatable="false">Are You Sure , You Want to Leave Game?</string>
-    <string name="join">Join Room</string>
-    <string name="create">Create Room</string>
-    <string name="enter_code">Enter GameRoom Code</string>
+    <string name="destroy_game_room_msg">Nếu bạn rời đi phòng Thi Đấu sẽ bị hủy ?</string>
+    <string name="room_created_msg">Tạo Phòng Thành Công!!!</string>
+    <string name="leave_game_room_msg" translatable="false">Bạn có chắc muốn rời khỏi phòng?</string>
+    <string name="join">Tham Gia</string>
+    <string name="create">Tạo Phòng</string>
+    <string name="enter_code">Nhập mã phòng</string>
     <string name="view_all"><u>Xem thêm</u></string>
     <string name="quiz_zone" translatable="false">Test Zoom</string>
     <string name="play_zone" translatable="false">Test Mode</string>
@@ -305,24 +304,24 @@
     <string name="contest_zone" translatable="false">Contest Zone</string>
     <string name="contest_play">Contest Play</string>
     <string name="join_now" translatable="false">Join Now</string>
-    <string name="game_deactive_alert">GameRoom is Deactivate or Game Already Started </string>
-    <string name="gameroom_full">Maximum User Join Limit Reached!!</string>
-    <string name="share_code_msg" translatable="false">Here is My Group Battle Game Code : &#160;</string>
-    <string name="msg_oto_game_code" translatable="false">Here is My Group Battle Game Code : &#160;</string>
-    <string name="waiting_msg" translatable="false">Please wait a while till other player complete a game.</string>
-    <string name="game_code_alert">GameCode is Invalid</string>
+    <string name="game_deactive_alert">Phòng thi đấu đã bị hủy hoặc đã được bắt đầu.</string>
+    <string name="gameroom_full">Số người tham gia đã giới hạn!!</string>
+    <string name="share_code_msg" translatable="false">Đây là mã phòng của tôi. Hãy nhập và tham gia thi đấu với tôi : &#160;</string>
+    <string name="msg_oto_game_code" translatable="false">Đây là mã phòng của tôi. Hãy nhập và tham gia thi đấu với tôi : &#160;</string>
+    <string name="waiting_msg" translatable="false">Xin chờ đối thủ của bạn hoàn thành thi đấu.</string>
+    <string name="game_code_alert">Mã phòng không tồn tại</string>
     <string name="practice" translatable="false">Practice</string>
-    <string name="gameroom_code_alert">GameCode is Invalid Please Check Code</string>
-    <string name="share_code">Share this room code with a friends and ask them to join</string>
-    <string name="share_code_oto">Share game code with your friend and play One-to-One battle.</string>
-    <string name="game_start_msg">Please wait game will be start in few seconds.</string>
+    <string name="gameroom_code_alert">Mã phòng sai. Hãy kiểm tra lại!</string>
+    <string name="share_code">Chia sẻ mã phòng cho bạn bè và mời họ cùng tham gia.</string>
+    <string name="share_code_oto">Chia sẻ mã phòng với bạn bè để thi đấu 1 v/s 1.</string>
+    <string name="game_start_msg">Xin chờ trong vài giây để bắt đầu thi đấu.</string>
     <string name="device_language">Ngôn Ngữ</string>
 
-    <string name="one_to_one_battle">One v/s One Battle</string>
-    <string name="one_to_one_msg">Invite your friend and play one-to-one battle with them. </string>
-    <string name="Waiting_for_opponent">Waiting For Opponent</string>
-    <string name="start_game">Start Game</string>
-    <string name="room_create_msg">GameRoom Create Successfully</string>
+    <string name="one_to_one_battle">Thi đấu 1 v/s 1</string>
+    <string name="one_to_one_msg">Mời bạn bè của bạn và thi đấu 1 v/s 1 với họ. </string>
+    <string name="Waiting_for_opponent">Đang chờ đối thủ...</string>
+    <string name="start_game">Bắt Đầu</string>
+    <string name="room_create_msg">Tạo phòng thành công</string>
 
     <!--Ad Mob Ids-->
     <string name="adAppId">ca-app-pub-3940256099942544~3347511713</string>
@@ -344,7 +343,7 @@
     <string name="permission_grant" translatable="false">Cấp quyền truy cập</string>
     <string name="oppentent_leave">Đối thủ của bạn đã rời khỏi phòng!!</string>
     <string name="delete_successfully">Xóa tài khoản thành công.</string>
-    <string name="re_login">Re-Login Again!!</string>
-    <string name="relogin_message">To delete Your account, You must have Login in recently.\nThen After you can delete your Account</string>
+    <string name="re_login">Đăng nhập lại!!</string>
+    <string name="relogin_message">Để xóa tài khoản của bạn, bạn phải đăng nhập.\nSau đó, bạn có thể xóa tài khoản của mình.</string>
 
 </resources>

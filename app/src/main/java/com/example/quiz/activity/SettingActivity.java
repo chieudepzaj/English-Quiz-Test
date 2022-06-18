@@ -218,7 +218,7 @@ public class SettingActivity extends AppCompatActivity {
 
     protected void populateVibrationContents() {
         if (Session.getVibration(mContext)) {
-            mVibrationCheckBox.setChecked(true);
+            mVibrationCheckBox.setChecked(false);
         } else {
             mVibrationCheckBox.setChecked(false);
         }
