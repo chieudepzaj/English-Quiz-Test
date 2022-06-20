@@ -5,7 +5,7 @@ import com.example.quiz.R;
 
 public class Constant {
 
-    private static String DOMAIN_URL = "http://192.168.1.143:8080/Quiz_Online/"; //domain or admin panel url
+    private static String DOMAIN_URL = "http://192.168.1.18:8080/Quiz_Online/"; //domain or admin panel url
     public static String QUIZ_URL = DOMAIN_URL + "api-v2.php";  //api url
     /////// PARAMETERS  ///////
     public static String AUTHORIZATION = "Authorization";

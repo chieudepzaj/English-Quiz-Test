@@ -16,7 +16,7 @@
     <string name="self_challenge">Self Challenge</string>
     <string name="daily_quiz">Daily Test</string>
     <string name="learning_zone">Learning Zoom</string>
-    <string name="maths_zone" translatable="false">Maths Zoom</string>
+    <string name="maths_zone" translatable="false">Mx Zoom</string>
     <string name="learning_play">Learning Now</string>
     <string name="maths_play" translatable="false">Maths Play</string>
     <string name="account_delete">Xóa Tài Khảon?</string>
@@ -36,39 +36,39 @@
     <string name="rateapp">Rate Us</string>
     <string name="bg_music">Nhạc nền</string>
     <string name="share_via">Share via</string>
-    <string name="next_play">Play Next Level</string>
+    <string name="next_play">Level Tiếp Theo</string>
     <string name="play_again">Kiểm Tra Lại</string>
     <string name="quite">Trang Chủ</string>
-    <string name="review_answer">Review</string>
-    <string name="share_score" translatable="false">Share Score</string>
-    <string name="share_result" translatable="false">Share Result</string>
+    <string name="review_answer">Xem Lại</string>
+    <string name="share_score" translatable="false">Chia Sẻ Điểm</string>
+    <string name="share_result" translatable="false">Chia Sẻ Kết Quả</string>
         <string name="action_settings">Cài Đặt</string>
-    <string name="play_next">Play Again</string>
+    <string name="play_next">Thử Lại</string>
     <string name="lets_play" translatable="false">Let\'s Play</string>
     <string name="instruction">Hướng Dẫn</string>
     <string name="coinstore">Coin Store</string>
     <string name="msg_no_internet">No internet connection!!</string>
-    <string name="no_category">category not available!!</string>
+    <string name="no_category">không có dữ liệu!!</string>
     <string name="no_data">Không có dữ liệu!!</string>
     <string name="ttl_ques">Ques :&#160;</string>
-    <string name="select_no_of_question">Select Number Of Questions</string>
-    <string name="select_time_period">Select Time Period in Minutes</string>
-    <string name="no_sub_category">sub category not available!!</string>
-    <string name="no_enough_question">Not enough questions, to play level.</string>
-    <string name="no_enough_questiondaily">Daily Quiz not Available or you already played Daily Quiz!!</string>
+    <string name="select_no_of_question">Chọn số câu hỏi</string>
+    <string name="select_time_period">Chọn thời gian mỗi câu hỏi</string>
+    <string name="no_sub_category">không có dữ liệu!!</string>
+    <string name="no_enough_question">Không đủ số câu hỏi cho level tiếp theo.</string>
+    <string name="no_enough_questiondaily">Daily Test trống hoặc bạn tham gia hôm nay rồi!!</string>
     <string name="retry">Thử lại</string>
     <string name="title">Tiêu đề</string>
-    <string name="lets_start">Let\'s Start</string>
+    <string name="lets_start">Kiểm Tra Ngay Nào</string>
     <string name="hello">Hello,&#160;</string>
     <string name="_coins">&#160;Coins</string>
-    <string name="bm_empty_msg">bookmark not available</string>
+    <string name="bm_empty_msg">bookmark trống</string>
     <string name="empty_alert_msg" translatable="false">Trường này không được để trống</string>
     <string name="a">A</string>
     <string name="b">B</string>
     <string name="c">C</string>
     <string name="d">D</string>
     <string name="e" translatable="false">E</string>
-    <string name="un_attend">Un-Attempted</string>
+    <string name="un_attend">Chưa trả lời</string>
     <string name="answer">answer</string>
     <string name="answerbookmark">Đáp Án: </string>
     <string name="extra_note">Ghi chú thêm: </string>
@@ -92,7 +92,7 @@
     <string name="go_back">Quay lại</string>
     <string name="login">Đăng Nhập</string>
     <string name="signup">Tạo Tài Khoản</string>
-    <string name="signup_alert">you are not registered yet, please SignUp</string>
+    <string name="signup_alert">Bạn chưa đăng ký, vui lòng đăng ký tài khoản.</string>
     <string name="invalid_pass">Mật khẩu không đúng định dạng, vui lòng kiểm tra mật khẩu của bạn</string>
     <string name="email_alert_1">Nhập địa chỉ email</string>
     <string name="email_alert_2">Hãy nhập địa chỉ email đúng định dạng</string>
@@ -124,15 +124,15 @@
     <string name="report_hint">Type a message</string>
 
     <string name="about_us">About Us</string>
-    <string name="exit_msg" translatable="false">Do you want to exit the level?</string>
-    <string name="exit_msg_quiz" translatable="false">Do you want to exit the Quiz?</string>
+    <string name="exit_msg" translatable="false">Bạn có muốn thoát khỏi level này?</string>
+    <string name="exit_msg_quiz" translatable="false">Bạn có chắc muốn thoát không?</string>
     <string name="bookmark_play">Kiểm Tra Với Bookmark</string>
     <string name="all_complete_msg">Bạn đã hoàn thành tất cả câu hỏi !!</string>
     <string name="leave_msg_1" translatable="false">Bạn có chắc muốn thoát?</string>
     <string name="leave_msg_2">Bạn chưa gửi bài kiểm tra này. Bạn có chắc bạn sẽ thoát?</string>
 
     <!--instruction battle String-->
-    <string name="battle_msg1">\u25CF This will allow player vs player battle</string>
+    <string name="battle_msg1">\u25CF Cho phép người dùng thi đấu với người dùng.</string>
     <string name="battle_msg2">\u25CF Nếu không tìm thấy bất kỳ người dùng nào, bạn có thể thi đấu với robot.</string>
     <string name="battle_msg3">\u25CF Đối với thi đấu, hai người chơi sẽ có cùng câu hỏi. Người chiến thắng dựa trên số câu trả lời đúng.</string>
 
@@ -150,7 +150,7 @@
 
     <string name="textsize_dialog_lbl_fontsize">Cỡ chữ</string>
     <string name="font_size">Cỡ chữ</string>
-    <string name="level_locked">Level is Locked</string>
+    <string name="level_locked">Level bị khóa</string>
 
     <string name="update_profile">Cập Nhật Trang Cá Nhân</string>
     <string name="user_statistics">Thống Kê Người Dùng</string>
@@ -183,12 +183,12 @@
     <string name="player_1">Player 1</string>
     <string name="player_2">Player 2</string>
     <string name="exit">Thoát</string>
-    <string name="play_with_computer1">Play With Robot</string>
+    <string name="play_with_computer1">Thi đấu với Robot</string>
     <string name="congrats">Chúc Mừng</string>
-    <string name="next_time">Batter Luck Next Time!!</string>
+    <string name="next_time">Chúc may mắn lần sau!!</string>
     <string name="robot">Robot</string>
     <string name="level">Level</string>
-    <string name="msg_player_not_available"><h3><b>Oops!</b></h3>\n Player Not Available For Battle!!</string>
+    <string name="msg_player_not_available"><h3><b>Oops!</b></h3>\n Không có người dùng cho trận thi đấu!!</string>
     <string name="question_not_available">Không có dữ liệu câu hỏi.</string>
     <string name="leave_battle_txt"> &#160; đã rời khỏi phòng.</string>
     <string name="msg_win_battle">, Bạn chiến thắng trận thi đấu này.</string>
@@ -206,15 +206,15 @@
     <string name="que">Que:&#160;</string>
     <string name="avail_cate" translatable="false">Available Categories :&#160;</string>
     <string name="search_player">Tìm Người Chơi</string>
-    <string name="leave_battle">Leave Battle</string>
+    <string name="leave_battle">Rời Khỏi Trận Thi Đấu</string>
     <string name="yes" translatable="false">Có</string>
     <string name="no">Không</string>
     <string name="back_message" translatable="false">Bạn có chắc muốn thoát không?</string>
-    <string name="dailycompleted">Daily Quiz Completed!!</string>
-    <string name="learningcompleted">Learning Zone Completed!!</string>
+    <string name="dailycompleted">Hoàn Thành Daily Quiz!!</string>
+    <string name="learningcompleted">Hoàn Thành Learning Zone!!</string>
     <string name="mathscompleted">Maths Zone Completed!!</string>
-    <string name="randomcompleted">Random Quiz Completed!!</string>
-    <string name="truefalsecompleted">True/False Quiz Completed!!</string>
+    <string name="randomcompleted">Hoàn Thành Random Quiz!!</string>
+    <string name="truefalsecompleted">Hoàn Thành True/False Quiz!!</string>
     <!--invite friend msg-->
     <string name="invite_frnd">Invite friends</string>
     <string name="refer_code_copied">Refer Code Copied to Clipboard</string>
@@ -260,7 +260,7 @@
     <string name="participants">Players</string>
     <string name="enter_email">Nhập địa chỉ email</string>
     <string name="act_login">ĐĂNG NHẬP</string>
-    <string name="no_notification">Thông báo không có sẵn!!</string>
+    <string name="no_notification">Thông báo trống!!</string>
     <string name="new_act">TẠO TÀI KHOẢN</string>
     <string name="reset_msg1">Vui lòng nhập thông tin tài khoản để lấy lại mật khẩu.</string>
     <string name="reset_msg2">Chúng tôi sẽ gửi link khôi phục mật khẩu tới email của bạn</string>

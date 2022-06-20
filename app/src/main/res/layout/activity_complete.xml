@@ -39,7 +39,8 @@
                         android:id="@+id/txt_result_title"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_margin="5dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginBottom="5dp"
                         android:gravity="center"
                         android:text="@string/completed"
                         android:textColor="@color/light_background"
@@ -311,17 +312,15 @@
 
                     <RelativeLayout
                         android:id="@+id/cardTitle"
+                        android:visibility="invisible"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/gradient_orange"
-
-
                         >
 
                         <TextView
                             android:id="@+id/txtShare"
-                            android:layout_width="fill_parent"
-                            android:layout_height="wrap_content"
+                            android:layout_width="1dp"
+                            android:layout_height="1dp"
                             android:fontFamily="@font/open_sans_semibold"
                             android:gravity="center"
                             android:maxLines="1"
@@ -354,11 +353,10 @@
 
                     <RelativeLayout
 
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_width="1dp"
+                        android:layout_height="1dp"
+                        android:visibility="invisible"
                         android:background="@drawable/gradient_cat_pink"
-
-
                         >
 
                         <TextView

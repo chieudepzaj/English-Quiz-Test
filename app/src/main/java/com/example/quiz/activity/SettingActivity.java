@@ -157,7 +157,6 @@ public class SettingActivity extends AppCompatActivity {
         mMusicCheckBox = (SwitchCompat) findViewById(R.id.show_music_checkbox);
         ok_btn = (TextView) findViewById(R.id.ok);
         populateSoundContents();
-        populateVibrationContents();
         populateMusicEnableContents();
         ok_btn.setOnClickListener(new OnClickListener() {
 
@@ -191,7 +190,7 @@ public class SettingActivity extends AppCompatActivity {
     private void switchVibrationCheckbox() {
         isVibrationOn = !isVibrationOn;
         Session.setVibration(mContext, isVibrationOn);
-        populateVibrationContents();
+
     }
 
     private void switchMusicEnableCheckbox() {
@@ -214,15 +213,6 @@ public class SettingActivity extends AppCompatActivity {
             mSoundCheckBox.setChecked(false);
         }
         isSoundOn = Session.getSoundEnableDisable(mContext);
-    }
-
-    protected void populateVibrationContents() {
-        if (Session.getVibration(mContext)) {
-            mVibrationCheckBox.setChecked(false);
-        } else {
-            mVibrationCheckBox.setChecked(false);
-        }
-        isVibrationOn = Session.getVibration(mContext);
     }
 
     protected void populateMusicEnableContents() {
@@ -254,12 +244,6 @@ public class SettingActivity extends AppCompatActivity {
                 break;
             case R.id.sound_checkbox:
                 switchSoundCheckbox();
-                break;
-            case R.id.vibration_layout:
-                switchVibrationCheckbox();
-                break;
-            case R.id.vibration_checkbox:
-                switchVibrationCheckbox();
                 break;
             case R.id.show_hint_layout:
                 switchMusicEnableCheckbox();

@@ -761,8 +761,6 @@ public class TournamentPlay extends AppCompatActivity implements OnClickListener
         if (Session.getSoundEnableDisable(activity))
             Utils.setrightAnssound(activity);
 
-        if (Session.getVibration(activity))
-            Utils.vibrate(activity, Utils.VIBRATION_DURATION);
 
     }
 
@@ -771,8 +769,6 @@ public class TournamentPlay extends AppCompatActivity implements OnClickListener
         if (Session.getSoundEnableDisable(activity))
             Utils.setwronAnssound(activity);
 
-        if (Session.getVibration(activity))
-            Utils.vibrate(activity, Utils.VIBRATION_DURATION);
 
     }
 
@@ -800,8 +796,6 @@ public class TournamentPlay extends AppCompatActivity implements OnClickListener
         if (Session.getSoundEnableDisable(activity))
             Utils.backSoundonclick(activity);
 
-        if (Session.getVibration(activity))
-            Utils.vibrate(activity, Utils.VIBRATION_DURATION);
     }
 
     public void SettingButtonMethod() {

@@ -756,8 +756,6 @@ public class PlayActivity extends AppCompatActivity implements OnClickListener {
         if (Session.getSoundEnableDisable(activity))
             Utils.setrightAnssound(activity);
 
-        if (Session.getVibration(activity))
-            Utils.vibrate(activity, Utils.VIBRATION_DURATION);
 
     }
 
@@ -766,8 +764,6 @@ public class PlayActivity extends AppCompatActivity implements OnClickListener {
         if (Session.getSoundEnableDisable(activity))
             Utils.setwronAnssound(activity);
 
-        if (Session.getVibration(activity))
-            Utils.vibrate(activity, Utils.VIBRATION_DURATION);
     }
 
     //set progress again after next question
@@ -793,8 +789,6 @@ public class PlayActivity extends AppCompatActivity implements OnClickListener {
         if (Session.getSoundEnableDisable(activity))
             Utils.backSoundonclick(activity);
 
-        if (Session.getVibration(activity))
-            Utils.vibrate(activity, Utils.VIBRATION_DURATION);
     }
 
     public void SettingButtonMethod() {
