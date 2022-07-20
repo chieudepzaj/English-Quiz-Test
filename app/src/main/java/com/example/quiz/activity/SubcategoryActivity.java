@@ -304,7 +304,7 @@ public class SubcategoryActivity extends AppCompatActivity {
                 onBackPressed();
                 return true;
             case R.id.setting:
-                Utils.CheckVibrateOrSound(activity);
+
                 Intent playQuiz = new Intent(activity, SettingActivity.class);
                 startActivity(playQuiz);
                 overridePendingTransition(R.anim.open_next, R.anim.close_next);

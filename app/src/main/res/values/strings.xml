@@ -6,7 +6,7 @@
     <string name="drawer_close">Close navigation drawer</string>
     <string name="completed">Chúc mừng!!</string>
     <string name="congratulations">Chúc mừng!!</string>
-    <string name="time_challenge_msg">Bạn hoàn thành bài quiz trong &#160;</string>
+    <string name="time_challenge_msg">Bạn hoàn thành thử thách trong &#160;</string>
     <string name="sec">&#160;sec&#160;</string>
     <string name="not_completed">Chúc may mắn lần sau</string>
     <string name="select_level">Chọn Level</string>
@@ -36,23 +36,23 @@
     <string name="rateapp">Rate Us</string>
     <string name="bg_music">Nhạc nền</string>
     <string name="share_via">Share via</string>
-    <string name="next_play">Level Tiếp Theo</string>
+    <string name="next_play">Next Level</string>
     <string name="play_again">Kiểm Tra Lại</string>
     <string name="quite">Trang Chủ</string>
     <string name="review_answer">Xem Lại</string>
     <string name="share_score" translatable="false">Chia Sẻ Điểm</string>
-    <string name="share_result" translatable="false">Chia Sẻ Kết Quả</string>
+    <string name="share_result" translatable="false">Chia Sẻ</string>
         <string name="action_settings">Cài Đặt</string>
     <string name="play_next">Thử Lại</string>
-    <string name="lets_play" translatable="false">Let\'s Play</string>
+    <string name="lets_play" translatable="false">Thử Ngay Nào</string>
     <string name="instruction">Hướng Dẫn</string>
     <string name="coinstore">Coin Store</string>
     <string name="msg_no_internet">No internet connection!!</string>
     <string name="no_category">không có dữ liệu!!</string>
     <string name="no_data">Không có dữ liệu!!</string>
-    <string name="ttl_ques">Ques :&#160;</string>
+    <string name="ttl_ques">Câu hỏi :&#160;</string>
     <string name="select_no_of_question">Chọn số câu hỏi</string>
-    <string name="select_time_period">Chọn thời gian mỗi câu hỏi</string>
+    <string name="select_time_period">Chọn thời gian kiểm tra</string>
     <string name="no_sub_category">không có dữ liệu!!</string>
     <string name="no_enough_question">Không đủ số câu hỏi cho level tiếp theo.</string>
     <string name="no_enough_questiondaily">Daily Test trống hoặc bạn tham gia hôm nay rồi!!</string>
@@ -77,15 +77,15 @@
     <string name="ad_attribution" translatable="false">Ad</string>
     <string name="report">Báo cáo câu hỏi</string>
     <string name="cancel" translatable="false">Hủy</string>
-    <string name="submit" translatable="false">Xác Nhận</string>
+    <string name="submit" translatable="false">Nộp Bài</string>
     <string name="review">Xem Lại</string>
     <string name="result" translatable="false">Kết Quả</string>
     <string name="title_already_used">Life Line Already Used !!</string>
     <string name="msg_lifeline_used" translatable="false">You can use only once per level</string>
-    <string name="self_challenge_sub_msg" translatable="false">Bạn có chắc không ?\nBạn muốn nộp bài ngay không?</string>
+    <string name="self_challenge_sub_msg" translatable="false">Bạn muốn nộp bài ngay không?\nHãy chắc chắn bạn đã hoàn thành bài kiểm tra.</string>
     <string name="true_ans">Đáp Án: </string>
     <string name="zero">0</string>
-    <string name="challenge_time" translatable="false">Challenge Time&#160;</string>
+    <string name="challenge_time" translatable="false">Thời Gian Thử Thách&#160;</string>
     <string name="loading">Loading…</string>
     <string name="bookmark_list">Bookmark List</string>
     <string name="level_not_available">Level không khả dụng</string>
@@ -120,10 +120,10 @@
     <string name="correct_ans">Số câu đúng</string>
     <string name="correct">Đúng</string>
     <string name="incorrect">Số câu sai</string>
-    <string name="color_code">Color Code</string>
-    <string name="report_hint">Type a message</string>
+    <string name="color_code"></string>
+    <string name="report_hint">Nội dung</string>
 
-    <string name="about_us">About Us</string>
+    <string name="about_us">Giới Thiệu</string>
     <string name="exit_msg" translatable="false">Bạn có muốn thoát khỏi level này?</string>
     <string name="exit_msg_quiz" translatable="false">Bạn có chắc muốn thoát không?</string>
     <string name="bookmark_play">Kiểm Tra Với Bookmark</string>
@@ -137,15 +137,15 @@
     <string name="battle_msg3">\u25CF Đối với thi đấu, hai người chơi sẽ có cùng câu hỏi. Người chiến thắng dựa trên số câu trả lời đúng.</string>
 
     <!--instruction  messages-->
-    <string name="has_option">Quiz game has 4 options</string>
-    <string name="msg_right">For each right answer 5 points will be given.</string>
-    <string name="msg_wrong" translatable="false">minus 2 points for each question</string>
+    <string name="has_option">Có 2 loại câu hỏi: Lựa chọn và True/False</string>
+    <string name="msg_right">Đối với mỗi câu trả lời đúng sẽ được 5 điểm.</string>
+    <string name="msg_wrong" translatable="false">Trừ 2 điểm với mỗi câu trả lời sai</string>
     <string name="msg_lifeline">Use of Lifeline  : You can use only once per level</string>
     <string name="msg_fifty_fifty">50 – 50 : for remove two option out of Four(deduct 4 coins ).</string>
     <string name="msg_skip">Skip question: you can pass question without minus points(deduct 2 coins).</string>
     <string name="msg_opinion">Audience poll: use audience paul for check other users choose option(deduct 4 coins).</string>
     <string name="msg_reset">Reset timer: Reset timer again if you needed more time score (deduct 2 coins).</string>
-    <string name="msg_leaderboard" translatable="false">You can compare your score with other users of apps</string>
+    <string name="msg_leaderboard" translatable="false">Bạn có thể so sánh điểm  với người dùng khác.</string>
     <string name="leaderboard">Bảng Xếp Hạng</string>
 
     <string name="textsize_dialog_lbl_fontsize">Cỡ chữ</string>
@@ -159,7 +159,7 @@
     <string name="back">Quay Lại</string>
     <string name="play_quiz" translatable="false">Quiz Mode</string>
     <string name="play" translatable="false">Play</string>
-    <string name="battle_quiz">Battle Quiz</string>
+    <string name="battle_quiz">Thi Đấu</string>
     <string name="bookmarks">Bookmarks</string>
     <string name="notification">Thông Báo</string>
     <string name="show_answer">Xem Đáp Án</string>
@@ -196,14 +196,14 @@
     <string name="msg_opponent_win_battle">&#160; đã giành chiến thắng</string>
     <string name="msg_alert_leave" translatable="false">"Bạn có muốn rời khỏi phòng thi đấu ?"</string>
     <string name="msg_draw_game">"Hòa..!!\n Trận đấu đã kết thúc. Hãy thử lại."</string>
-    <string name="try_again1">Thử Lại</string>
-    <string name="winner">Người Chiến Thắng</string>
+    <string name="try_again1">Thử Lại Lần Nữa</string>
+    <string name="winner">Winner</string>
     <string name="victory_">Chiến Thắng</string>
     <string name="you_loss">Bạn đã thua</string>
     <string name="defeat" translatable="false">Thất Bại</string>
     <string name="or">Or</string>
     <string name="category">Chủ Đề&#160;</string>
-    <string name="que">Que:&#160;</string>
+    <string name="que">Câu hỏi:&#160;</string>
     <string name="avail_cate" translatable="false">Available Categories :&#160;</string>
     <string name="search_player">Tìm Người Chơi</string>
     <string name="leave_battle">Rời Khỏi Trận Thi Đấu</string>
@@ -255,7 +255,7 @@
     <string name="enter_otp">Nhập mã OTP</string>
     <string name="verify">Xác minh</string>
     <string name="phone_num">Số điện thoại</string>
-    <string name="sign_up_with_mobile">Đăng kí với số điện thoại</string>
+    <string name="sign_up_with_mobile">Đăng nhập với số điện thoại</string>
     <string name="entry_fees">Entry fees</string>
     <string name="participants">Players</string>
     <string name="enter_email">Nhập địa chỉ email</string>
@@ -317,8 +317,8 @@
     <string name="game_start_msg">Xin chờ trong vài giây để bắt đầu thi đấu.</string>
     <string name="device_language">Ngôn Ngữ</string>
 
-    <string name="one_to_one_battle">Thi đấu 1 v/s 1</string>
-    <string name="one_to_one_msg">Mời bạn bè của bạn và thi đấu 1 v/s 1 với họ. </string>
+    <string name="one_to_one_battle">1 v/s 1 Battle</string>
+    <string name="one_to_one_msg">Mời bạn bè của bạn và thi đấu \n1 v/s 1 với họ. </string>
     <string name="Waiting_for_opponent">Đang chờ đối thủ...</string>
     <string name="start_game">Bắt Đầu</string>
     <string name="room_create_msg">Tạo phòng thành công</string>
@@ -331,9 +331,8 @@
     <string name="native_unit_id">ca-app-pub-3940256099942544/8135179316</string>
     <string name="admob_openads_id">ca-app-pub-3940256099942544/3419835294</string>
 
-
-    <string name="levea_msg3" translatable="false">Are you sure you want to leave PracticeQuiz?</string>
-    <string name="youloss">You Loss</string>
+    <string name="levea_msg3" translatable="false"></string>
+    <string name="youloss">Loser</string>
     <string name="you">you</string>
     <string name="enternumber">Nhập số điện thoại</string>
     <string name="entername">Nhập tên</string>

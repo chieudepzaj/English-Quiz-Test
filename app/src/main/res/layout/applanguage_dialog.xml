@@ -46,18 +46,5 @@
         android:textColor="@color/black"
         android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/tvArbic"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/tvHindi"
-        android:background="@drawable/green_white_bg"
-        android:padding="@dimen/padding_15"
-        android:text="Arabic"
-        android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textSize="@dimen/txt_size_16"
-        android:textStyle="bold"
-        android:visibility="gone"
-        />
+
 </RelativeLayout>

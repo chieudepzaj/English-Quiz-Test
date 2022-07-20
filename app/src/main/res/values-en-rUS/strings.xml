@@ -265,7 +265,7 @@
     <string name="new_act">NEW ACCOUNT</string>
     <string name="reset_msg1">Enter the email address \nassociated with your \naccount.</string>
     <string name="reset_msg2">We will email you a link to reset your \npassword</string>
-    <string name="by_wrteam">By WRTeam</string>
+    <string name="by_wrteam">HEDSPI 2022</string>
     <!--facebook appId for login-->
     <string name="facebook_app_id">2338640796222596</string>
     <string name="fb_login_protocol_scheme">fb2338640796222596</string>

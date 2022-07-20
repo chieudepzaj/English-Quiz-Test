@@ -917,9 +917,7 @@ public class PlayOneToOne extends AppCompatActivity implements View.OnClickListe
         if (Session.getSoundEnableDisable(activity)) {
             Utils.setrightAnssound(activity);
         }
-        if (Session.getVibration(activity)) {
-            Utils.vibrate(activity, Utils.VIBRATION_DURATION);
-        }
+
     }
 
     //play sound when answer is incorrect
@@ -927,9 +925,7 @@ public class PlayOneToOne extends AppCompatActivity implements View.OnClickListe
         if (Session.getSoundEnableDisable(activity)) {
             Utils.setwronAnssound(activity);
         }
-        if (Session.getVibration(activity)) {
-            Utils.vibrate(activity, Utils.VIBRATION_DURATION);
-        }
+
     }
 
     //set progress again after next question

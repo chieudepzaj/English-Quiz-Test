@@ -43,7 +43,7 @@
         android:layout_marginEnd="@dimen/circle_height"
         android:background="@drawable/edt_bg"
         android:gravity="center"
-        android:hint="@string/game_code"
+        android:hint=""
         android:inputType="number"
         android:padding="@dimen/margin_10dp"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"

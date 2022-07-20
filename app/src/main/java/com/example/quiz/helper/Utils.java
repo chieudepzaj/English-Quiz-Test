@@ -116,7 +116,7 @@ public class Utils {
 
     public static int level_coin = 1;
     public static int level_score = 0;
-    public static final long VIBRATION_DURATION = 100;
+    public static final long VIBRATION_DURATION = 0;
 
 
     @SuppressWarnings("unused")
@@ -126,7 +126,7 @@ public class Utils {
     public final static float FLOAT_EPSILON = Float.intBitsToFloat(1);
     public static int RequestlevelNo = 1;
     public static final boolean DEFAULT_SOUND_SETTING = true;
-    public static final boolean DEFAULT_VIBRATION_SETTING = true;
+    public static final boolean DEFAULT_VIBRATION_SETTING = false;
     public static final boolean DEFAULT_MUSIC_SETTING = false;
 
 
@@ -924,7 +924,7 @@ public class Utils {
                 firebaseAuth.sendPasswordResetEmail(email)
                         .addOnCompleteListener(task -> {
                             if (task.isSuccessful()) {
-                                Toast.makeText(activity, "Email sent", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(activity, "Email khôi phục mật khẩu đã được gửi", Toast.LENGTH_SHORT).show();
                                 alertDialog.dismiss();
                             }
                         });

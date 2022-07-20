@@ -72,9 +72,7 @@ public class ReviewActivity extends AppCompatActivity {
         questionNo = findViewById(R.id.questionNo);
         if (from.equals("regular")) {
             reviews = PlayActivity.questionList;
-        } /*else if (from.equals("daily") || from.equals("random") || from.equals("true_false")) {
-            reviews = DailyActivity.questionList;
-        }*/ else
+        } else
             reviews = SelfChallengeQuestion.questionList;
 
         viewPager = findViewById(R.id.viewPager);
@@ -136,7 +134,7 @@ public class ReviewActivity extends AppCompatActivity {
         final EditText edtReport = dialogView.findViewById(R.id.edtReport);
 
         TextView tvQuestion = dialogView.findViewById(R.id.tvQuestion);
-        tvQuestion.setText("Que : " + Html.fromHtml(question.getQuestion()));
+        tvQuestion.setText("Câu hỏi : " + Html.fromHtml(question.getQuestion()));
         alertDialog = dialog.create();
         alertDialog.getWindow().setBackgroundDrawable(new ColorDrawable(android.graphics.Color.TRANSPARENT));
         alertDialog.setCancelable(true);
@@ -145,7 +143,7 @@ public class ReviewActivity extends AppCompatActivity {
                 ReportQuestion(edtReport.getText().toString(), String.valueOf(question.getId()));
                 edtReport.setError(null);
             } else {
-                edtReport.setError("Please fill all the data and submit!");
+                edtReport.setError("Vui lòng điền nội dung báo cáo và gửi!");
             }
         });
         cancel.setOnClickListener(view -> alertDialog.dismiss());

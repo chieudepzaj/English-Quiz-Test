@@ -245,16 +245,16 @@
 
                     <RelativeLayout
                         android:id="@+id/faceookryt"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="1dp"
+                        android:layout_height="1dp"
                         android:layout_marginEnd="@dimen/margin_dp"
                         android:background="@drawable/fb_bg"
 
                         >
 
                         <com.example.quiz.helper.CircleImageView1
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_width="1dp"
+                            android:layout_height="1dp"
                             android:padding="@dimen/margin_10dp"
                             app:srcCompat="@drawable/ic_facebookimg" />
 

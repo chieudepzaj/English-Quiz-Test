@@ -308,7 +308,7 @@
                             android:maxLines="1"
                             android:onClick="PlayQuiz"
                             android:padding="@dimen/margin_20dp"
-                            android:text="@string/play_quiz"
+                            android:text="Thử Lại"
                             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                             android:textColor="@color/white" />
                     </RelativeLayout>

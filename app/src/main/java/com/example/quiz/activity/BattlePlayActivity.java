@@ -898,9 +898,7 @@ public void getAllWidgets(){
         if (Session.getSoundEnableDisable(activity)) {
             Utils.setrightAnssound(activity);
         }
-        if (Session.getVibration(activity)) {
-            Utils.vibrate(activity, Utils.VIBRATION_DURATION);
-        }
+
     }
 
     //play sound when answer is incorrect
@@ -908,9 +906,7 @@ public void getAllWidgets(){
         if (Session.getSoundEnableDisable(activity)) {
             Utils.setwronAnssound(activity);
         }
-        if (Session.getVibration(activity)) {
-            Utils.vibrate(activity, Utils.VIBRATION_DURATION);
-        }
+
     }
 
     //set progress again after next question

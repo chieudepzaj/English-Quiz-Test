@@ -8,27 +8,12 @@ public class SettingsPreferences {
 	public static final String SETTING_Quiz_PREF = "setting_cashquiz_pref";
 	private static final String SOUND_ONOFF = "sound_enable_disable";
 	private static final String SHOW_MUSIC_ONOFF = "showmusic_enable_disable";
-	private static final String VIBRATION = "vibrate_status";
 	public static final String IS_LAST_LEVEL_COMPLETED = "is_last_level_completed";
 	public static final String FIFTY = "fifty_fifty";
 	public static final String RESET = "reset";
 	public static final String AUDIENCE = "audience";
 	public static final String SKIP = "skip";
-	public static void setVibration(Context context, Boolean result) {
-		SharedPreferences prefs = context.getSharedPreferences(	SETTING_Quiz_PREF, Context.MODE_PRIVATE);
-		SharedPreferences.Editor prefEditor = prefs.edit();
-		prefEditor.putBoolean(VIBRATION, result);
-		prefEditor.commit();
-	}
-	public static boolean getVibration(Context context) {
-		try {
-			SharedPreferences prefs = context.getSharedPreferences(SETTING_Quiz_PREF, Context.MODE_PRIVATE);
-			return prefs.getBoolean(VIBRATION, StaticUtils.DEFAULT_VIBRATION_SETTING);
-		}catch (Exception e){
-			e.printStackTrace();
-		}
-		return StaticUtils.DEFAULT_VIBRATION_SETTING;
-	}
+
 	public static void setSoundEnableDisable(Context context, Boolean result) {
 		SharedPreferences prefs = context.getSharedPreferences(
 				SETTING_Quiz_PREF, Context.MODE_PRIVATE);

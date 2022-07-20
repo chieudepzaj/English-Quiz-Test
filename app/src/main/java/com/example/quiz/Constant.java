@@ -5,7 +5,7 @@ import com.example.quiz.R;
 
 public class Constant {
 
-    private static String DOMAIN_URL = "http://192.168.1.18:8080/Quiz_Online/"; //domain or admin panel url
+    private static String DOMAIN_URL = "http://192.168.1.143:8080/Quiz_Online/"; //domain or admin panel url
     public static String QUIZ_URL = DOMAIN_URL + "api-v2.php";  //api url
     /////// PARAMETERS  ///////
     public static String AUTHORIZATION = "Authorization";
@@ -246,7 +246,7 @@ public class Constant {
 
     public static final String TEXT_SIZE_MAX = "30"; //maximum text size of play area question
     public static final String TEXT_SIZE_MIN = "18";//minimum default text for play area question
-    public static final String DefaultLanguage = "en";
+    public static final String DefaultLanguage = "hi";
 
 
     public static int score1 = 3;

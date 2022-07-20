@@ -142,9 +142,24 @@
                             android:orientation="vertical">
 
                             <TextView
-                                android:id="@+id/tvCoin"
+                                android:id="@+id/tvScore"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:background="@drawable/shadow_curved"
+                                android:drawablePadding="5dp"
+                                android:gravity="center"
+                                android:paddingLeft="@dimen/margin_20dp"
+                                android:paddingTop="5dp"
+                                android:paddingRight="@dimen/margin_20dp"
+                                android:paddingBottom="5dp"
+                                android:text="@string/zero"
+                                android:textColor="@color/edt_bg"
+                                android:textStyle="bold" />
+                            <TextView
+                                android:id="@+id/tvCoin"
+                                android:layout_width="1dp"
+                                android:layout_height="1dp"
                                 android:layout_gravity="center"
                                 android:background="@drawable/shadow_curved"
                                 android:drawablePadding="5dp"
@@ -157,22 +172,7 @@
                                 android:textColor="@color/white"
                                 android:textStyle="bold" />
 
-                            <TextView
-                                android:id="@+id/tvScore"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_gravity="center"
-                                android:layout_marginTop="@dimen/margin_5dp"
-                                android:background="@drawable/shadow_curved"
-                                android:drawablePadding="5dp"
-                                android:gravity="center"
-                                android:paddingLeft="@dimen/margin_20dp"
-                                android:paddingTop="5dp"
-                                android:paddingRight="@dimen/margin_20dp"
-                                android:paddingBottom="5dp"
-                                android:text="@string/zero"
-                                android:textColor="@color/edt_bg"
-                                android:textStyle="bold" />
+
 
                         </LinearLayout>
                     </LinearLayout>

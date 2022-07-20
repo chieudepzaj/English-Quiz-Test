@@ -87,7 +87,7 @@ public class ResultActivity extends AppCompatActivity {
         progressBar.setMaxProgress((int) Constant.CHALLENGE_TIME);
         progressBar.setCurrentProgress((int) (Constant.TAKE_TIME));
         tvTime.setText("" + getMinuteSeconds(Constant.TAKE_TIME));
-        tvResultMsg.setText(getString(R.string.time_challenge_msg) + getMinuteSeconds(Constant.TAKE_TIME) + getString(R.string.sec));
+        tvResultMsg.setText(getString(R.string.time_challenge_msg) + getMinuteSeconds(Constant.TAKE_TIME) + "giây");
         tvChallengeTime.setText(getString(R.string.challenge_time) + getMinuteSeconds(Constant.CHALLENGE_TIME));
         tvCorrect.setText("" + correctList.size());
         tvInCorrect.setText("" + inCorrectList.size());

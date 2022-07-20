@@ -74,7 +74,7 @@
             android:background="@drawable/gradientcurve_bg"
             android:gravity="center"
             android:padding="7dp"
-            android:text="@string/submit"
+            android:text="Gửi"
             android:textColor="@color/white"
             android:textSize="@dimen/mid_text"
             android:textStyle="bold" />

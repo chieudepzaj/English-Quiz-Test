@@ -87,6 +87,7 @@
                         android:layout_height="wrap_content"
                         android:layout_alignParentEnd="true"
                         android:layout_centerVertical="true"
+                        android:checked="false"
                         android:onClick="viewClickHandler"
                         android:padding="10dp" />
 
@@ -173,8 +174,8 @@
 
                 <RelativeLayout
                     android:id="@+id/rate_layout"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_width="1dp"
+                    android:layout_height="1dp"
                     android:layout_below="@+id/divider13"
                     android:onClick="viewClickHandler"
                     android:padding="5dp">

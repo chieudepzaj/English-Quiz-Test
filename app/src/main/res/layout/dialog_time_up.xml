@@ -67,7 +67,7 @@
 
                 android:text="@string/play_with_computer1"
                 android:textColor="@color/colorPrimaryDark"
-                android:textSize="@dimen/mid_text"
+                android:textSize="14sp"
                 android:visibility="visible" />
 
             <TextView
